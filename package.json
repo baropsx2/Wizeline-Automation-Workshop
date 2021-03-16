@@ -1,0 +1,15 @@
+{
+  "name": "testcafe_workshop",
+  "version": "1.0.0",
+  "description": "Testcafe project",
+  "main": "index.js",
+  "scripts": {
+    "test-all-chrome": "testcafe chrome ./page_model/tests"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Barocio",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
